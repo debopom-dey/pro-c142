@@ -35,7 +35,7 @@ def unliked_article():
     }), 201
 
 @app.route("/popular-article")
-def unliked_article():
+def popular_article():
     article = all_articles[0]
     all_articles=all_articles[1:]
     popular_articles.append(article)
