@@ -4,7 +4,7 @@ from storage import all_articles, liked_articles, not_liked_articles
 from demographic_filtering import output
 from content_filtering import get_recommendations
 
-popular_articles=[]
+popular_articles=[] 
 recommended_articles= []
 
 app = Flask(__name__)
